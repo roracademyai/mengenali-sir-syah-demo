@@ -16,7 +16,7 @@
   <style>
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;margin:0;color:#111;background:#fff}
     header{background:#fff;border-bottom:1px solid #eee;padding:18px}
-    .container{max-width:980px;margin:18px auto;padding:0 20px}
+    .container{max-width:1024px;margin:18px auto;padding:0 20px}
     .logo img{height:64px}
     nav a{margin-right:14px;color:#111;text-decoration:none}
     .hero{display:flex;gap:24px;align-items:flex-start}
@@ -25,8 +25,13 @@
     h2{margin:6px 0;color:#333}
     p{line-height:1.6;color:#222}
     .muted{color:#666;font-style:italic}
-    ul{color:#222}
+    .card{background:#f8fbff;padding:18px;border-radius:12px;margin-top:18px}
+    .two-col{display:flex;gap:24px;align-items:flex-start}
+    .col-left{flex:1}
+    .col-right{flex:1}
     footer{padding:24px;text-align:center;color:#888}
+    .icon-list a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:#111}
+    .cta{display:inline-block;margin-top:12px;padding:10px 18px;background:#0ea5a4;color:#fff;border-radius:8px;text-decoration:none}
   </style>
 </head>
 <body>
@@ -57,43 +62,89 @@
         </div>
       </div>
 
-      <section style="margin-top:18px">
-        <h2>Peranan Profesional dan Akademik</h2>
-        <p>Sir Syah ialah seorang jurulatih strategik dan pensyarah yang aktif membimbing organisasi kerajaan, institusi pengajian tinggi (IPT), dan sektor awam dalam memahami serta mengaplikasikan teknologi Kecerdasan Buatan (AI) secara praktikal. Beliau dikenali kerana pendekatan hands-on, gaya penyampaian yang interaktif, serta kebolehan menyampaikan konsep kompleks dengan cara yang mudah difahami.</p>
-        <p>Sir Syah kini berkhidmat sebagai Pensyarah di Kolej Teknologi Antarabangsa Cybernetics (KTAC), di mana beliau mengajar dalam bidang Teknologi Maklumat (Information Technology). Melalui peranan akademik ini, beliau bukan sahaja membimbing pelajar terhadap teori asas IT, tetapi juga memperkenalkan penerapan praktikal teknologi moden seperti AI, ChatGPT, data analitik, dan automasi dalam konteks industri sebenar.</p>
-        <p>Sir Syah kini sedang menyambung pengajian di peringkat Sarjana (Master) dalam bidang Artificial Intelligence di Universiti Pendidikan Sultan Idris (UPSI).</p>
+      <section class="card">
+        <div class="two-col">
+          <div class="col-left">
+            <h2>Peranan Profesional dan Akademik</h2>
+            <p>Sir Syah ialah seorang jurulatih strategik dan pensyarah yang aktif membimbing organisasi kerajaan, institusi pengajian tinggi (IPT), dan sektor awam dalam memahami serta mengaplikasikan teknologi Kecerdasan Buatan (AI) secara praktikal. Beliau dikenali kerana pendekatan hands-on, gaya penyampaian yang interaktif, serta kebolehan menyampaikan konsep kompleks dengan cara yang mudah difahami.</p>
+            <p>Sir Syah kini berkhidmat sebagai Pensyarah di Kolej Teknologi Antarabangsa Cybernetics (KTAC) dan sedang menyambung pengajian Master dalam AI di UPSI.</p>
+          </div>
+          <div class="col-right">
+            <h2>Asas Akademik yang Kukuh dan Relevan</h2>
+            <ul>
+              <li>Sarjana Muda Kejuruteraan Elektrik – Universiti Teknologi Malaysia (UTM)</li>
+              <li>Sedang melanjutkan Sarjana dalam Artificial Intelligence – Universiti Pendidikan Sultan Idris (UPSI)</li>
+              <li>Pensyarah Teknologi Maklumat – Kolej Teknologi Antarabangsa Cybernetics (KTAC)</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
-      <section style="margin-top:18px">
-        <h2>Asas Akademik yang Kukuh dan Relevan</h2>
-        <p>Gabungan latar belakang kejuruteraan dan AI menjadikan pendekatan beliau dalam latihan bersifat analitikal, praktikal, dan mudah diadaptasi oleh pelbagai sektor.</p>
+      <section class="card">
+        <h2>Agensi yang telah menerima latihan</h2>
+        <p>Sir Syah telah memimpin pelbagai siri latihan dan bengkel AI bersama agensi kerajaan, badan berkanun dan institusi pendidikan tinggi seperti Dewan Bandaraya Kuala Lumpur (DBKL), Jabatan Perdana Menteri, Kementerian Pembangunan Usahawan dan Koperasi (KUSKOP), Kementerian Kesihatan Malaysia, serta Universiti Putra Malaysia (UPM).</p>
+        <p>Maklum balas yang diterima secara konsisten menyanjung cara penyampaian beliau yang interaktif dan mudah diikuti, serta keupayaan beliau mengubah konsep AI yang kompleks menjadi penerapan praktikal dalam konteks kerja sebenar.</p>
+
+        <h3>Penceramah Jemputan Bertaraf Nasional</h3>
+        <p>Reputasi Sir Syah diiktiraf di peringkat nasional apabila beliau dijemput sebagai salah seorang penceramah utama OSH Symposium bertemakan “Empowering Safety Culture, Embracing Future Challenges”, menghimpunkan tokoh industri seperti:</p>
         <ul>
-          <li>Sarjana Muda Kejuruteraan Elektrik – Universiti Teknologi Malaysia (UTM)</li>
-          <li>Sedang melanjutkan Sarjana dalam Artificial Intelligence – Universiti Pendidikan Sultan Idris (UPSI)</li>
-          <li>Pensyarah Teknologi Maklumat – Kolej Teknologi Antarabangsa Cybernetics (KTAC)</li>
+          <li>Datuk Haji Shamsuddin Bardan (Malaysian Employers Federation)</li>
+          <li>Datuk Mohamed Shafie BP Mammal (UNI Malaysia Labour Centre)</li>
+          <li>Tan Sri Dato’ Seri Dr. Noor Hisham Abdullah (UCSI Healthcare Group)</li>
+          <li>Khairy Jamaluddin (Influencer / Bekas Menteri Kesihatan)</li>
         </ul>
+        <p>Dalam sesi pembentangan beliau bertajuk “Leveraging AI in Fostering Workplace Safety”, Sir Syah menekankan aplikasi chatbot keselamatan, analisis dokumen automatik, dan aplikasi web untuk mempercepat penyebaran protokol keselamatan.</p>
+
+        <img src="https://roracademyai.com/wp-content/uploads/2025/10/osh-seminar.png" alt="OSH Seminar" style="max-width:100%;margin-top:12px">
       </section>
 
-      <section style="margin-top:18px">
-        <h2>Pengiktirafan Profesional dan Kredibiliti Global</h2>
-        <p>Kepakaran Sir Syah diiktiraf melalui pelbagai pensijilan serta kelayakan profesional, termasuk:</p>
-        <ul>
-          <li>Jurulatih Bertauliah HRD Corp (TTT Certified)</li>
-          <li>Pemegang Sijil NCS-TTT, Jabatan Pembangunan Kemahiran (JPK)</li>
-          <li>Jurutera Siswazah berdaftar dengan Lembaga Jurutera Malaysia (BEM) sejak tahun 2014</li>
-          <li>Pensijilan peringkat global: Google – Generative AI for Educators; Microsoft – Copilot Quick Glance Workshop; Intel – AI for Citizen; Alison – The Fundamentals of ChatGPT</li>
-        </ul>
+      <section class="card">
+        <h2>Nilai tambah</h2>
+        <p>Berbekalkan pengalaman dari dunia akademik, industri dan latihan profesional, Sir Syah aktif membantu membentuk masyarakat digital Malaysia. Beliau bukan sekadar berkongsi ilmu tentang teknologi masa depan—beliau turut membina jalan ke arah itu bersama anda.</p>
+        <ol>
+          <li><strong>Sokongan Pasca-Latihan yang Konsisten</strong>
+            <ul><li>Memberi bimbingan susulan bagi memastikan kemahiran AI dapat diaplikasi dalam tugasan sebenar.</li></ul>
+          </li>
+          <li><strong>Penasihat Strategik AI</strong>
+            <ul><li>Membantu organisasi menilai serta memilih alatan AI berdasarkan objektif dan sumber.</li></ul>
+          </li>
+          <li><strong>Kepakaran dalam Local AI &amp; Keselamatan Data</strong>
+            <ul><li>Menawarkan penyelesaian AI tempatan untuk kawalan data dan pengurangan risiko pendedahan.</li></ul>
+          </li>
+          <li><strong>Rangkaian Industri yang Luas</strong>
+            <ul><li>Mempercepat pelaksanaan transformasi AI melalui jaringan penyedia teknologi.</li></ul>
+          </li>
+        </ol>
+
+        <figure style="margin-top:12px">
+          <img src="https://roracademyai.com/wp-content/uploads/2026/03/Screenshot-2026-03-09-144630-768x594.png" alt="Google Generative AI Leader" style="max-width:100%">
+          <figcaption style="color:#666;font-size:14px">Google Generative AI Leader - Professional Certification</figcaption>
+        </figure>
       </section>
 
-      <section style="margin-top:18px">
-        <img src="https://roracademyai.com/wp-content/uploads/2025/10/578269646_10214310029622179_5839524030573457734_n.jpg" alt="Sir Syah speaking" style="max-width:100%">
-        <p class="muted">Dijemput sebagai speaker AI OSH Simposium anjuran Malaysia Airport Holding Berhad</p>
+      <section class="card">
+        <div class="two-col">
+          <div class="col-left">
+            <img src="https://roracademyai.com/wp-content/uploads/2025/10/IMG_20250918_091009-576x1024.jpg" alt="Training session" style="max-width:100%">
+            <p class="muted">Sesi latihan AI bersama Kementerian Keusahawanan dan Koperasi Malaysia</p>
+          </div>
+          <div class="col-right">
+            <h3>Hubungi / Muat Turun</h3>
+            <div class="icon-list">
+              <a class="icon" href="https://www.wasap.my/60115416628520" target="_blank">📱 WhatsApp</a><br>
+              <a class="icon" href="mailto:hello@roracademyai.com">✉️ Email Sir Syah</a><br>
+              <a class="icon" href="https://drive.google.com/drive/folders/1G77YT1CNaPtjV_0cITbtlmZWwao1vspr" target="_blank">📄 Muat turun Trainer Profile</a>
+            </div>
+
+            <a class="cta" href="https://roracademyai.com/permohonan-menjalani-kursus/">Mohon kursus sekarang</a>
+          </div>
+        </div>
       </section>
 
     </article>
 
     <footer>
-      © ROR Academy AI — Original page mirrored for demo.
+      © ROR Academy AI — Page mirrored for demo.
     </footer>
   </main>
 </body>
